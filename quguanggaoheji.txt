@@ -28,29 +28,9 @@
 ^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/[\w!]+-\d-tps-702-758\.png url reject-dict
 ^https:\/\/(gw|heic)\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602)\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 url reject-dict
 # 爱思助手 //list-app-m.i4.cn
-^https:\/\/list-app-m\.i4\.cn\/(adclickcb|getHotSearchList|getopfstadinfo)\.xhtml url reject
-## 爱奇艺 //#*cupid.iqiyi.com, intl.iqiyi.com, act.vip.iqiyi.com
-#^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo url reject
-#^https?:\/\/intl\.iqiyi\.com\/ad_external\/ url reject
-#^https?:\/\/intl\.iqiyi\.com\/video\/advertise url reject
-#^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do url reject-200
-#^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show url reject-200
-#^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo url reject-200
-#^https?:\/\/iface2\.iqiyi\.com\/fusion\/3\.0\/fusion_switch url reject-img
-#^http:\/\/static-s\.iqiyi\.com\/common\/.+\/Small_video\/a2\/af\/.+\.png url reject
-#^http:\/\/msga/.cupid/.iqiyi/.com\/scp2\.gif url reject
-#https?:\/\/ssports\.iqiyi\.com/app\/ url reject
-#https?:\/\/ssports\.iqiyi\.com/json\/shop\/shopInfo url reject
-#https?:\/\/.+\.iqiyi\.com\/videos\/other\/20$ url reject
-#https?:\/\/static\.iqiyi\.com\/js\/common\/.+\.js url reject
-#https?:\/\/t7z\.cupid\.iqiyi\.com\/show url reject
-#^https?:\/\/u\d\.iqiyipic\.com\/image\/[\w\/]+\/oad_ url reject
-#^http:\/\/.+\.iqiyipic\.com\/image\/.+\/ad\/.+\.jpg url reject
-#https?:\/\/.+\.iqiyipic\.com\/image\/20*_100000 url reject
-#^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo url reject
-
+^https:\/\/list-app-m\.i4\.cn\/(adclickcb|getHotSearchList|getopfstadinfo)\.xhtml urlect
+## 爱奇艺 //intl.iqiyi.com, act.vip.iqiyi.com
 ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do url reject
-^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v\d\/show url reject
 ^https?:\/\/intl\.iqiyi\.com\/ad_external\/ url reject
 ^https?:\/\/intl\.iqiyi\.com\/video\/advertise url reject
 ^https?:\/\/u\d\.iqiyipic\.com\/image\/[\w\/]+\/oad_ url reject
