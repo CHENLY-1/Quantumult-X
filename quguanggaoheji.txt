@@ -1,4 +1,4 @@
-#除：微博，高德，菜鸟，油管，携程小程序，百度贴吧，小红书，B站，知乎
+#除：微博，高德，菜鸟，油管，携程小程序，百度贴吧，小红书，B站，知乎，番茄小说
 # ======= 0~9 ======= #
 # 12306 开屏广告 //ad.12306.cn
 ^https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList url script-analyze-echo-response https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/12306.js
