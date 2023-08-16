@@ -251,10 +251,7 @@
 # ======= W ====== #
 # 微信 //mp.weixin.qq.com, weixin110.qq.com, security.wechat.com
 # 移除公众号中的推广内容 //mp.weixin.qq.com
-#^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|masonryfeed|relatedarticle)\? url reject-dict
-^https:\/\/mp\.weixin\.qq\.com\/mp\/ad.* url reject
-^(http|https):\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url response-body "advertisement_num":\d,"advertisement_info":\[.+\], response-body "advertisement_num":0,"advertisement_info":[],
-^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad - script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|masonryfeed|relatedarticle)\? url reject-dict
 # 跳过微信中转页面,解除被封禁链接 //weixin110.qq.com, security.wechat.com
 ^https\:\/\/(weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/wechat/wechat110.js
 ## WPS //ios.wps.cn, mobile-pic.cache.iciba.com
