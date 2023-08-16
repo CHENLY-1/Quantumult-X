@@ -100,25 +100,6 @@
 ## 飞常准 //app.variflight.com
 ^https?:\/\/app\.variflight\.com\/ad\/ url reject
 ^https?:\/\/app\.variflight\.com\/v\d\/advert\/ url reject
-# 番茄小说去章末广告
-^https?:\/\/.+\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/(get_ads|stats|settings)\/ url reject
-^https?:\/\/.+\.pglstatp-toutiao\.com\/.+\/toutiao\.mp4  url reject
-^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(obj|img)\/(ad-app-package|ad)\/.+ url reject
-^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(obj|img)\/web\.business\.image\/.+  url reject
-^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/obj\/ad-pattern\/renderer url reject
-^https?:\/\/gurd\.snssdk\.com\/src\/server\/v3\/package url reject
-^https?:\/\/.+\.byteimg.com/tos-cn-i-1yzifmftcy\/(.+)-jpeg\.jpeg  url reject
-^https?:\/\/.+\.pstatp\.com\/obj\/mosaic-legacy\/.+\?from\=ad  url reject
-^https?:\/\/.+\.pstatp\.com\/bytecom\/resource\/track_log\/src\/.+  url reject
-^https?:\/\/.+\.snssdk\.com\/video\/play\/1\/toutiao\/.+\/mp4 url reject
-^https?:\/\/.+\.snssdk.com\/api\/ad\/.+ url reject
-^http:\/\/.+\.byteimg\.com\/ad-app-package url reject
-^http:\/\/.+\.byteimg\.com\/web\.business\.image url reject
-# .+web\.business\.image url reject
-^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(ad-app-package|ad)\/.+ url reject
-^https?:\/\/adim\.pinduoduo\.com\/.+\/toutiao\?.+ url reject
-^https?:\/\/.+novelapp\.fqnovelvod\.com\/.+\/video\/.+ url reject
-^http:\/\/·+\.douyincdn\.com\/stage\/·+\.flv url reject
 
 # ======= H ====== #
 ## 华住 //appapi.huazhu.com
@@ -321,4 +302,4 @@
 # 开屏广告 这个主机名会影响携程部分功能正常运行，需要的自行添加主机名m.ctrip.com, 携程8.40.0以下的版本，不受影响。
 #^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/scjson\/tripAds url reject-dict
 
-hostname = ad.12306.cn, *.58cdn.com.cn, app.58.com, pic?.ajkimg.com, api.alipan.com, member.alipan.com, gw.aihuishou.com, acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, list-app-m.i4.cn, pan.baidu.com, update.pan.baidu.com, api.chelaile.net.cn, web.chelaile.net.cn, app-gw.csdn.net, api.douban.com, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, links.jianshu.com, www.jianshu.com, api.m.jd.com, gab.122.gov.cn, res.kfc.com.cn, api.coolapk.com, flowplus.meituan.net, img.meituan.net, s3plus.meituan.net, api.pinduoduo.com, api.yangkeduo.com, gql.reddit.com, *.sgcc.com.cn, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, api.m.mi.com, home.mi.com, un-acs.youku.com, wallet.95516.com, clientaccess.10086.cn, wap.js.10086.cn, intl.iqiyi.com, act.vip.iqiyi.com, mime.baidu.com, appwk.baidu.com, learn.chaoxing.com, vip7.fzwdyy.cn, sdk.alibaba.com, appdmkj.5idream.net, common.diditaxi.com.cn, conf.diditaxi.com.cn, app.dewu.com, cdn.poizon.com, app.variflight.com, appapi.huazhu.com, home.umetrip.com, discardrp.umetrip., list-app-m.i4.cn, richmanrules.ksedt.com, richmanapi.jxedt.com, api.jxedt.com, 789.kakamobi.cn, smart.789.image.mucang.cn, *.kakamobi.cn, static1.keepcdn.com, open-cms-api.quark.cn, api-access.pangolin-sdk-toutiao.com, mea.meitudata.com, enjoy.cdn-static.abchina.com, 3g.csair.com, m.qianbao.qq.com, us.l.qq.com, y.gtimg.cn, ssp.soulapp.cn, data-collector.soulapp.cn, ucmp.sf-express.com, sh-gateway.shihuo.cn, static.shihuocdn.cn, bid.adview.cn, guide-acs.m.taobao.com, ccmsupport-sz.tenpay.com, ios.wps.cn, mobile-pic.cache.iciba.com, webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com, mbs.boc.cn, m.client.10010.com, cloud.189.cn, zt-app.go189.cn, xyz.cnki.net, hdgateway.zto.com, quanguo.mygolbs.com, *.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com,adim.pinduoduo.com,v6-novelapp.fqnovelvod.com
+hostname = ad.12306.cn, *.58cdn.com.cn, app.58.com, pic?.ajkimg.com, api.alipan.com, member.alipan.com, gw.aihuishou.com, acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, list-app-m.i4.cn, pan.baidu.com, update.pan.baidu.com, api.chelaile.net.cn, web.chelaile.net.cn, app-gw.csdn.net, api.douban.com, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, links.jianshu.com, www.jianshu.com, api.m.jd.com, gab.122.gov.cn, res.kfc.com.cn, api.coolapk.com, flowplus.meituan.net, img.meituan.net, s3plus.meituan.net, api.pinduoduo.com, api.yangkeduo.com, gql.reddit.com, *.sgcc.com.cn, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, api.m.mi.com, home.mi.com, un-acs.youku.com, wallet.95516.com, clientaccess.10086.cn, wap.js.10086.cn, intl.iqiyi.com, act.vip.iqiyi.com, mime.baidu.com, appwk.baidu.com, learn.chaoxing.com, vip7.fzwdyy.cn, sdk.alibaba.com, appdmkj.5idream.net, common.diditaxi.com.cn, conf.diditaxi.com.cn, app.dewu.com, cdn.poizon.com, app.variflight.com, appapi.huazhu.com, home.umetrip.com, discardrp.umetrip., list-app-m.i4.cn, richmanrules.ksedt.com, richmanapi.jxedt.com, api.jxedt.com, 789.kakamobi.cn, smart.789.image.mucang.cn, *.kakamobi.cn, static1.keepcdn.com, open-cms-api.quark.cn, api-access.pangolin-sdk-toutiao.com, mea.meitudata.com, enjoy.cdn-static.abchina.com, 3g.csair.com, m.qianbao.qq.com, us.l.qq.com, y.gtimg.cn, ssp.soulapp.cn, data-collector.soulapp.cn, ucmp.sf-express.com, sh-gateway.shihuo.cn, static.shihuocdn.cn, bid.adview.cn, guide-acs.m.taobao.com, ccmsupport-sz.tenpay.com, ios.wps.cn, mobile-pic.cache.iciba.com, webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com, mbs.boc.cn, m.client.10010.com, cloud.189.cn, zt-app.go189.cn, xyz.cnki.net, hdgateway.zto.com, quanguo.mygolbs.com
