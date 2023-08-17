@@ -174,7 +174,7 @@
 
 # ======= Q ====== #
 ## QQ钱包 净化 //m.qianbao.qq.com
-^https?:\/\/m\.qianbao\.qq\.com\/pages\/walletHome\?invisible url reject
+#^https?:\/\/m\.qianbao\.qq\.com\/pages\/walletHome\?invisible url reject
 ## QQ浏览器 //us.l.qq.com
 ^https:\/\/us\.l\.qq\.com\/exapp\?spsa=\d url reject
 ## QQ音乐 //us.l.qq.com, y.gtimg.cn
