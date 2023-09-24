@@ -1,10 +1,5 @@
 #qq浏览器
-host-keyword, trpcpb.imtt.qq.com, reject
 host,kde.qq.com, reject
-host-keyword, report.nfa.qq.com, reject
-host-suffix, gdt.qq.com, reject
-host-keyword, gtimg.cn, reject
-host-keyword, gdtimg.com, reject
 #番茄小说
 host, p6-ad-sign.byteimg.com, reject
 host, p9-ad-sign.byteimg.com, reject
