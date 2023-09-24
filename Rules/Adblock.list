@@ -1,5 +1,3 @@
-#qq浏览器
-host,kde.qq.com, reject
 #番茄小说
 host, p6-ad-sign.byteimg.com, reject
 host, p9-ad-sign.byteimg.com, reject
