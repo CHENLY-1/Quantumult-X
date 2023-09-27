@@ -431,6 +431,8 @@ HOST-SUFFIX, gitlab.com, PROXY
 # > Quantumult X
 HOST-SUFFIX, quantumult.app, PROXY
 # ---(机场)---
+# > 花云
+HOST, flowercloud.net, PROXY
 # > 独角兽
 HOST, 91unicorn.cloud, PROXY
 # > 快银
