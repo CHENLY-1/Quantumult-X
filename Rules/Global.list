@@ -436,7 +436,8 @@ HOST-SUFFIX, quantumult.app, PROXY
 HOST, flowercloud.net, PROXY
 HOST, huacloud.net, PROXY
 # > 独角兽
-HOST, 91unicorn.cloud, PROXY                  
+HOST, 91unicorn.cloud, PROXY 
+HOST, 91unicorn.net, PROXY
 # > 快银
 HOST, kuaiyin.info, PROXY
 
