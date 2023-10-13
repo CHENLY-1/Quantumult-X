@@ -1,3 +1,10 @@
+/*
+#Spotify歌词翻译
+#https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js
+
+hostname =spclient.wg.spotify.com
+^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ url script-response-body
+*/
 const options = {
     appid: '',
     securityKey: ''
