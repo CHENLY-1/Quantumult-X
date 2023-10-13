@@ -1,5 +1,5 @@
 /*
-//哔哩哔哩解大会员
+//哔哩哔哩共享大会员
 
 [rewrite_local]
 ^https?:\/\/ap(i|p)\.bilibili\.com\/bilibili\.\w{3,9}\..+\/(View|Play(URL|View(Unite)?|Conf|erOnline)|MainList|ViewProgress)$ url script-request-header biliCrack.js
