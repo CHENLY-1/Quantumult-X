@@ -7,7 +7,7 @@
 [mitm]
 hostname = spclient.wg.spotify.com
 
-*/
+
 const options = {
     appid: '20231006001838011',
     securityKey: 'SuwQliorjq1hgq4Erzc9'
