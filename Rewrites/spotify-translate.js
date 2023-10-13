@@ -1,10 +1,11 @@
 #Spotify翻译
 #https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js
 
-hostname = spclient.wg.spotify.com
-
+[rewrite_local]
 ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Rewrites/spotify-translate.js
 
+[mitm]
+hostname = spclient.wg.spotify.com
 
 */
 const options = {
