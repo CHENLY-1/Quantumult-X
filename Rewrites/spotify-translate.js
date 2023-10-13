@@ -1,10 +1,3 @@
-#Spotify翻译
-#https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/MyBlockAds.conf
-
-hostname = spclient.wg.spotify.com
-
-https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Rewrites/spotify-translate.js
-
 const options = {
     appid: '',
     securityKey: ''
