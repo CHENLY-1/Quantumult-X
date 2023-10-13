@@ -6,7 +6,7 @@
 hostname =spclient.wg.spotify.com
 
 [rewrite_local]
-^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ url script-response-body
+^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Rewrites/spotify-translate.js
 
 */
 const options = {
