@@ -421,6 +421,7 @@ HOST, news-edge.apple.com, PROXY
 HOST, news-events.apple.com, PROXY
 HOST, apple.comscoreresearch.com, PROXY
 # ------
+#HOST-SUFFIX, giffgaff.com, PROXY
 # > Microsoft
 HOST-SUFFIX, bing.com, PROXY
 HOST-SUFFIX, linkedin.com, PROXY
