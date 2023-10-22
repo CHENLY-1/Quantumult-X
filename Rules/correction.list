@@ -1,3 +1,20 @@
+#
+host, ios.aneeo.com, direct
+host, iios.fun, direct
+host, esign.yyyue.xyz, direct
+host, pan.yyyue.xyz, direct
+host, apt.thebigboss.org, direct
+host, havoc.app, direct
+host, byg.iosios.net, direct
+host, cydia.ichitaso.com, direct
+host, lzsxcl.github.io, direct
+host, alist.xiaoya.pro, direct
+host, repo.initnil.com, direct
+host, rootless.zqbb.cf, direct
+host, apt.25mao.com, direct
+host, ios.aneeo.com, direct
+host, iios.fun, direct
+host-suffix, xhwx3.com, direct
 #独角兽机场
 host, d9s.me, direct
 #快银机场
@@ -6,6 +23,3 @@ host, kuaiyin.me, direct
 host, kuaiyin.pro, direct
 host, kuaiyin.pw, direct
 host, kuaiyin.run, direct
-#
-host, ios.aneeo.com, direct
-host, iios.fun, direct
