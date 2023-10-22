@@ -34,6 +34,4 @@ host, lf-sourcecdn-tos.bytegecko.com, reject
 host, bsrv.qq.com, reject
 host, sq.bls.mdt.qq.com, reject
 host, xj-landing.gdtimg.com, reject
-# 果冻宝盒
-host, knicks.jd.com, reject 
-host, acs.m.taobao.com, reject
+
