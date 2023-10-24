@@ -1,6 +1,6 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Global.list
 # 2022-05-21
-
+HOST-KEYWORD, adguard, PROXY
 # (D.C.S.G?)
 HOST-SUFFIX, 9cache.com, PROXY
 HOST-SUFFIX, 9gag.com, PROXY
@@ -334,7 +334,7 @@ HOST-SUFFIX, readyatdawn.com, PROXY
 HOST-SUFFIX, rocksdb.org, PROXY
 HOST-SUFFIX, whatsapp.com, PROXY
 HOST-SUFFIX, whatsapp.net, PROXY
-HOST-KEYWORD, .facebook., PROXY
+HOST-KEYWORD, facebook, PROXY
 # > Microsoft
 HOST-SUFFIX, aka.ms, PROXY
 HOST-SUFFIX, github.blog, PROXY
@@ -350,7 +350,7 @@ HOST, az416426.vo.msecnd.net, PROXY
 HOST, az668014.vo.msecnd.net, PROXY
 # > Pinterest
 HOST-SUFFIX, pinimg.com, PROXY
-HOST-KEYWORD, .pinterest., PROXY
+HOST-KEYWORD, pinterest, PROXY
 # > pixiv
 HOST-SUFFIX, pixiv.net, PROXY
 HOST-SUFFIX, pixiv.org, PROXY
