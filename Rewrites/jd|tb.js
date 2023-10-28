@@ -1,12 +1,11 @@
 /*
 #京东|淘宝 比价
-
+[rewrite_local]
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Rewrites/jd%7Ctb.js
-
 ^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Rewrites/jd%7Ctb.js
 ^http://.+/amdc/mobileDispatch url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Rewrites/jd%7Ctb.js
 ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Rewrites/jd%7Ctb.js
-
+[mitm]
 hostname = api.m.jd.com, trade-acs.m.taobao.com
 */
 
