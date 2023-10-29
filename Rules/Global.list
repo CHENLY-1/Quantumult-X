@@ -438,6 +438,7 @@ HOST, huacloud.net, PROXY
 # > 独角兽
 HOST, 91unicorn.cloud, PROXY 
 HOST, 91unicorn.net, PROXY
+HOST-KEYWORD, 91unicorn, PROXY
 # > 快银
 HOST, kuaiyin.info, PROXY
 
