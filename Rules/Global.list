@@ -441,4 +441,5 @@ HOST, 91unicorn.net, PROXY
 HOST-KEYWORD, 91unicorn, PROXY
 # > 快银
 HOST, kuaiyin.info, PROXY
+HOST-KEYWORD, kuaiyin, PROXY
 
