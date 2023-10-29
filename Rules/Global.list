@@ -1,6 +1,7 @@
 # https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter/Global.list
 # 2022-05-21
 HOST-KEYWORD, adguard, PROXY
+HOST-SUFFIX, qianling.pw, PROXY
 # (D.C.S.G?)
 HOST-SUFFIX, 9cache.com, PROXY
 HOST-SUFFIX, 9gag.com, PROXY
