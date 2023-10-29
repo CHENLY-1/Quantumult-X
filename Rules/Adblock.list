@@ -35,4 +35,4 @@ host, bsrv.qq.com, reject
 host, sq.bls.mdt.qq.com, reject
 host, xj-landing.gdtimg.com, reject
 #收钱吧小程序
-host-suffix, ads-shopping.shouqianba.com, reject
+;host-suffix, ads-shopping.shouqianba.com, reject
