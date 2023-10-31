@@ -1,6 +1,4 @@
-#==========================================
-https://raw.githubusercontent.com/ddgksf2013/Profile/master/ClashforWindows.yaml
-#==========================================
+#https://raw.githubusercontent.com/ddgksf2013/Profile/master/ClashforWindows.yaml
 
 port: 7890           # HTTP 代理端口
 socks-port: 7891     # Socks 端口
