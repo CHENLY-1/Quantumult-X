@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js
+// https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js
 // 2023-07-11 08:35
 
 const url = $request.url;
