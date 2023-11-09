@@ -1,3 +1,6 @@
+#网页广告
+host, ax6zrlc.mlumlio.cn, reject
+host, ew5iibk.aroom.love, reject
 #番茄小说
 host, p6-ad-sign.byteimg.com, reject
 host, p9-ad-sign.byteimg.com, reject
