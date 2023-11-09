@@ -3,7 +3,6 @@
 HOST-KEYWORD, adguard, PROXY
 HOST-SUFFIX, qianling.pw, PROXY
 IP-CIDR, 8.8.8.8/32, PROXY
-HOST, m.uaa002.com, PROXY
 
 # (D.C.S.G?)
 HOST-SUFFIX, 9cache.com, PROXY
