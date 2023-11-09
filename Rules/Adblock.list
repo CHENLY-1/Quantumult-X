@@ -1,4 +1,6 @@
 #网页广告
+host-suffix, myqcloud.com, reject
+host-suffix, tencentclb.com, reject
 host, ax6zrlc.mlumlio.cn, reject
 host, ew5iibk.aroom.love, reject
 #番茄小说
