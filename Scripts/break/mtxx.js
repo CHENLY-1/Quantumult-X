@@ -1,21 +1,295 @@
-// https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/mtxx.js
-/******************************
+// https://raw.githubusercontent.com/chxm1023/Rewrite/main/mtxx.js
+/*************************************
 
-脚本功能：美图秀秀+解锁VIP
-软件版本：v9.6.20
-脚本作者：彭于晏
-更新时间：2022-9-1
-问题反馈：QQ+89996462
-使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+项目名称：美图秀秀 解锁SVIP
+下载地址：https://t.cn/AiN3YLHl
+脚本作者：chxm1023
+电报频道：https://t.me/chxm1023
+使用声明：⚠️仅供参考，🈲转载与售卖！
 
-
-*******************************
+**************************************
 
 [rewrite_local]
-^https:\/\/api\.xiuxiu\.meitu\.com\/v1 url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/mtxx.js
-[mitm] 
-hostname = api.xiuxiu.meitu.com
+^https?:\/\/((h5|api)\.xiuxiu|api-sub|api\.posters)\.meitu\.com\/.+\/(vip|user|h\d|center|home) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/mtxx.js
 
-*******************************/
+[mitm]
+hostname = *.xiuxiu.meitu.com, api.posters.meitu.com, api-sub.meitu.com
 
-['sojson.v4']["\x66\x69\x6c\x74\x65\x72"]["\x63\x6f\x6e\x73\x74\x72\x75\x63\x74\x6f\x72"](((['sojson.v4']+[])["\x63\x6f\x6e\x73\x74\x72\x75\x63\x74\x6f\x72"]['\x66\x72\x6f\x6d\x43\x68\x61\x72\x43\x6f\x64\x65']['\x61\x70\x70\x6c\x79'](null,"118a97q114W32R98q111F100B121T32Q61Z32C36N114F101b115l112S111M110G115a101G46m98o111i100O121T59F10R118t97r114f32s117T114A108a32Z61y32l36q114o101J113r117d101B115L116W46i117z114L108n59j10C118i97B114g32r111O98p106s32t61l32q74b83G79W78U46U112S97I114k115Y101L40o98e111m100l121E41F59j10p10J99N111H110Q115q116C32o118g105t112o32B61I32t39K47N118R105N112k39R59d10A10Y10N105w102a32J40w117v114b108m46D105l110c100r101J120y79S102l40h118D105m112D41N32h33F61G32o45C49N41a32K123f10z32A32D32K32o111u98G106s46w100c97C116x97K46D118x105v112u95L116N121G112W101T32V61P32d49E59w10e111g98U106b46u100u97a116i97M46U115A117s98l95t98H105V122S95e116H121o112b101I32U61q32B49v59t10Q111T98M106s46E100w97R116O97k46J105P115r95F118y97H108b105l100M95A117m115s101F114O32F61b32U49d59U10E111H98L106e46e100S97x116P97X46Q101C120i112A105q114m101i95o100R97E121S115g32l61B32C56S56B56i56W56l56X56R56l56X56t59Q10m111m98F106n46Y100h97q116V97i46L101z120R99i104m97K110D103l101S95z118o105R112V32I61r32y49D59J10E111P98T106l46T100C97m116k97q46J105g115M95l110Q101a119I95t118s105d112w115h117e98P32G61D32X49T59Z10N111f98s106W46W100Z97r116b97n46g104Z111F109p101r95o112H114W111U109y112B116I32N61S32b34y24744R30340E20250R21592L23558C20110n50V48i57H57I47L48l49N47x48T49m36807I26399B12290G34t59Y10P10S9p98L111s100t121J32Z61m32n74H83J79q78e46e115r116a114p105m110p103i105M102n121a40r111R98E106u41m59d10x125l10W10g10l36Y100S111v110F101e40X123x98b111m100t121u125k41d59"['\x73\x70\x6c\x69\x74'](/[a-zA-Z]{1,}/))))('sojson.v4');
+*************************************/
+
+
+var chxm1023 = JSON.parse($response.body);
+const hysj = '/vip/prompt/query.json';
+const hyxx = '/vip/vip_show.json';
+const user = '/user/show.json';
+const hyzl = '/vip/new_sub_detail.json';
+const hymb = '/vip/vip_navigation.json';
+const group = '/user/vip_info_by_group.json';
+const vip = '/center/user_info.json';
+const sjs = '/user/info_by_entrance.json';
+const sjshf = '/home/home.json';
+const kta = 'https://api.posters.meitu.com/center/user_rights.json';
+const ktb = 'https://api.posters.meitu.com/center/user_rights_consume.json';
+
+
+if ($request.url.indexOf(hysj) != -1){
+  chxm1023.data = {
+    "home_btn_prompt" : "立即查看",
+    "if_transfer" : 0,
+    "pay_interval" : 3000,
+    "beautify_prompt" : "",
+    "home_prompt" : "会员有效期至2099/09/09",
+    "svip_bubble_text" : "粉钻SVIP：有效期至2099/09/09\n粉钻VIP：有效期至2099/09/99",
+    "beautify_btn_prompt" : "",
+    "request_time" : 1666666666666
+  };
+}
+
+if ($request.url.indexOf(hyxx) != -1){
+  chxm1023.data = {
+    "id": "666666666666666666",
+    "id_str": "666666666666666666",
+    "valid_time": 4092599349,
+    "uid" : 1666666666,
+    "sub_type": 3,
+    "expire_days": -66666,
+    "screen_name": "",
+    "avatar_url": "",
+    "in_valid_time": 4092599349,
+    "gid": 1234567890,
+    "s": 1,
+    "vip_type": 101,
+    "platform": 2,
+    "sub_name": "包年",
+    "renew": 2,
+    "is_valid_user": 1,
+    "create_time": 1666666666,
+    "sub_biz_type": 1,
+    "is_expire": 0,
+    "in_valid_time" : 4092599349
+  };
+}
+
+if ($request.url.indexOf(user) != -1){
+  chxm1023.data.vip_type = 101;
+  chxm1023.data.vip_icon = "https://xximg1.meitudata.com/6948531747980333892.png";
+  chxm1023.data.follower_count = 999000;
+  chxm1023.data.fan_count = 999000;
+  chxm1023.data.be_like_count = 999000;
+}
+
+if ($request.url.indexOf(hyzl) != -1){
+  delete chxm1023.data.materials;
+  delete chxm1023.data.prices;
+  delete chxm1023.data.new_version_rotograms;
+  chxm1023.data.vip_sign_info = {
+      "sub_type" : 3,
+      "renew_status" : 1,
+      "show_auto_renew" : 1,
+      "next_withhold_amount" : 16800,
+      "withhold_currency_symbol" : "¥",
+      "next_withhold_date" : "2099-09-09",
+      "pay_channel" : "苹果支付",
+      "do_pop_up" : false
+    };
+  chxm1023.data.vip_power_num = 999999;
+  chxm1023.data.new_power_num = 999999;
+  chxm1023.data.welfare_center_num = 999999;
+  chxm1023.data.exchange_vip = 0;
+  chxm1023.data.platform = 2;
+  chxm1023.data.renew = 1;
+  chxm1023.data.is_new_vipsub = 0;
+  chxm1023.data.s = 1;
+  chxm1023.data.expire_days = -66666;
+  chxm1023.data.sub_type = 3;
+  chxm1023.data.old_vip_type = 4;
+  chxm1023.data.valid_time = 4092599349;
+  chxm1023.data.invalid_time = 4092599349;
+  chxm1023.data.is_expire = 0;
+  chxm1023.data.rights_page_vip_btn_title = "立即解锁";
+  chxm1023.data.rights_page_svip_btn_title = "立即解锁";
+  chxm1023.data.hbp_vip = {
+      "sub_type" : 3,
+      "valid_time" : 4092599349,
+      "renew" : 1,
+      "expire_days" : -66666,
+      "is_expire" : 0,
+      "in_valid_time" : 4092599349,
+      "s" : 0
+    };
+  chxm1023.data.sub_biz_type = 1;
+  chxm1023.data.vip_type = 101;
+  chxm1023.data.xx_vip = {
+      "sub_type" : 3,
+      "valid_time" : 4092599349,
+      "renew" : 1,
+      "expire_days" : -66666,
+      "is_expire" : 0,
+      "in_valid_time" : 4092599349,
+      "s" : 0
+    };
+}
+
+if ($request.url.indexOf(hymb) != -1){
+  delete chxm1023.data.rights;
+  delete chxm1023.data.navigation_card_list;
+  delete chxm1023.data.config_list;
+  delete chxm1023.data.pendant;
+  chxm1023.data.vip_type = 101;
+  chxm1023.data.display_vip_time = 1;
+  chxm1023.data.display_vip_type = 2;
+  chxm1023.data.hbp_vip = {
+      "id" : "666666666666666666",
+      "id_str" : "666666666666666666",
+      "valid_time" : 4092599349,
+      "uid" : 1666666666,
+      "sub_type" : 3,
+      "sub_biz_type" : 1,
+      "avatar_url" : "",
+      "is_expire" : 0,
+      "expire_days" : -66666,
+      "gid" : 1234567890,
+      "vip_type" : 101,
+      "platform" : 2,
+      "sub_name" : "包年",
+      "renew" : 2,
+      "s" : 0,
+      "is_valid_user" : 1,
+      "create_time" : 1666666666,
+      "screen_name" : "",
+      "in_valid_time" : 4092599349
+    };
+chxm1023.data.xx_vip = {
+      "id" : "666666666666666666",
+      "id_str" : "666666666666666666",
+      "valid_time" : 4092599349,
+      "uid" : 1666666666,
+      "sub_type" : 3,
+      "sub_biz_type" : 1,
+      "avatar_url" : "",
+      "is_expire" : 0,
+      "expire_days" : -66666,
+      "gid" : 1234567890,
+      "vip_type" : 101,
+      "platform" : 2,
+      "sub_name" : "包年",
+      "renew" : 2,
+      "s" : 0,
+      "is_valid_user" : 1,
+      "create_time" : 1666666666,
+      "screen_name" : "",
+      "in_valid_time" : 4092599349
+   };
+}
+
+if ($request.url.indexOf(group) != -1){
+  chxm1023.data = {
+    "active_sub_type" : 2,
+    "account_type" : 1,
+    "sub_type_name" : "续期",
+    "active_sub_order_id" : "666666666666666666",
+    "trial_period_invalid_time" : "4092599349000",
+    "current_order_invalid_time" : "4092599349000",
+    "active_order_id" : "666666666666666666",
+    "limit_type" : 0,
+    "active_sub_type_name" : "续期",
+    "use_vip" : true,
+    "have_valid_contract" : false,
+    "derive_type_name" : "普通会员",
+    "derive_type" : 1,
+    "in_trial_period" : true,
+    "is_vip" : true,
+    "membership" : {
+      "id" : "7",
+      "display_name" : "",
+      "level" : 2,
+      "level_name" : "高级会员"
+    },
+    "active_promotion_status_list" : [
+      2,
+      6
+    ],
+    "sub_type" : 3,
+    "account_id" : "1666666666",
+    "invalid_time" : "4092599349000",
+    "valid_time" : "4092599349000",
+    "active_product_id" : "0",
+    "active_promotion_status" : 2,
+    "show_renew_flag" : false
+  };
+}
+
+if ($request.url.indexOf(vip) != -1){
+  chxm1023.data.vip_end_time = 4092599349;
+  chxm1023.data.is_vip = true;
+}
+
+if ($request.url.indexOf(sjs) != -1){
+  chxm1023.data = {
+    "vip_info" : {
+      "active_sub_type" : 2,
+      "account_type" : 1,
+      "sub_type_name" : "续期",
+      "active_sub_order_id" : "666666666666666666",
+    "trial_period_invalid_time" : "4092599349000",
+    "current_order_invalid_time" : "4092599349000",
+      "active_order_id" : "666666666666666666",
+      "limit_type" : 0,
+      "active_sub_type_name" : "续期",
+      "use_vip" : true,
+      "have_valid_contract" : false,
+      "derive_type_name" : "普通会员",
+      "derive_type" : 1,
+      "in_trial_period" : true,
+      "is_vip" : true,
+      "membership" : {
+        "id" : "7",
+        "display_name" : "",
+        "level" : 2,
+        "level_name" : "高级会员"
+      },
+      "active_promotion_status_list" : [
+        2,
+        6
+      ],
+      "sub_type" : 3,
+      "account_id" : "1666666666",
+      "invalid_time" : "4092599349000",
+      "valid_time" : "4092599349000",
+      "active_product_id" : "0",
+      "active_promotion_status" : 2,
+      "show_renew_flag" : false
+    },
+    "account_type" : 1,
+    "account_id" : "1666666666",
+    "rights_info" : [
+      {
+        "show_tips" : "抠图剩余张数：9999999 张 >",
+        "commodity_unit" : "2",
+        "link_words" : "9999999 张 >",
+        "commodity_id" : "shejishi.cutout",
+        "commodity_count" : 9999999
+      }
+    ]
+  };
+}
+
+if ($request.url.indexOf(sjshf) != -1){
+  delete chxm1023.data.banner;
+}
+
+if ($request.url.indexOf(kta) != -1){
+  chxm1023.data = {
+    "cutout" : {
+      "num_left" : 9999999
+    }
+  };
+}
+
+if ($request.url.indexOf(ktb) != -1){
+  chxm1023.data = {
+    "consume_result" : true
+  };  
+}
+
+$done({body : JSON.stringify(chxm1023)});
