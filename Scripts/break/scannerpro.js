@@ -1,27 +1,198 @@
-// https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Scanner.js
-/******************************
+// https://raw.githubusercontent.com/chxm1023/Rewrite/main/CamScanner.jsScanner.js
+/*************************************
 
-脚本功能：Scanner Pro+解锁订阅
-下载地址：http://mtw.so/6bRcSt
-软件版本：8.10
-脚本作者：彭于晏
-更新时间：2022-9-11
-问题反馈：QQ+89996462
-QQ会员群：779392027
-TG反馈群：https://t.me/plus8889
-使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+项目名称：扫描全能王 解锁黄金会员
+下载地址：https://t.cn/A6ouHe4B
+脚本作者：chxm1023
+使用说明：解锁部分功能，使用前先开脚本。
+使用声明：⚠️仅供参考，🈲转载与售卖！
 
-*******************************
+**************************************
 
 [rewrite_local]
 
-^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Scanner.js
+^https:\/\/.*\.(intsig\.net|camscanner\.com) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/CamScanner.js
 
-[mitm] 
+[mitm]
 
-hostname = api.revenuecat.com
+hostname = *.camscanner.com, *.intsig.net
 
-*******************************/
+*************************************/
 
 
-var _0x43e6=['w6xBGMKDGSjDmsKEw5fDnsKtwoDDtgTDg8Kcd3gxdg==','wpPDtQTDncKUw5nCsHLDjndIBMOYw7NbMzg+','w6JRw7Ekwp/CucKGXmV6wpPCixvCtAvDpsKvETTDig==','YmM3wq1JOcONw4jCocKLw6bDl2XCuxbCqW9oAFI=','wpw9Xl8pA0TCj18/EWcrwqseDcOdPh/Cuw==','aMKJL8KVdsOd','wpPDqsKPw7PDj0oRwoPClEXDk8OSw7vDuMOqAiLDmcKnQw==','wrgVwrdkw4HDvcOdFjErwqDDkVnDqA3DoMKnEg==','P8OfZMOBOsKBwpLClMKkwqhYOcOnw4MSw7zCs3zCk8Or','wqTCiR7Dp8OY','NcOpGMKAwqHDm8KqQMKwd8ORX8KLwqDDlnQ3w4zCmwQ=','w7LCuTkYNy/DnF4lLgzCocOqWnHDjlB/eyA='];(function(_0x48dac5,_0x43e6ae){var _0x5751e0=function(_0x177139){while(--_0x177139){_0x48dac5['push'](_0x48dac5['shift']());}};_0x5751e0(++_0x43e6ae);}(_0x43e6,0x196));var _0x5751=function(_0x48dac5,_0x43e6ae){_0x48dac5=_0x48dac5-0x0;var _0x5751e0=_0x43e6[_0x48dac5];if(_0x5751['kKUovk']===undefined){(function(){var _0x54b257=function(){var _0x533bd4;try{_0x533bd4=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');')();}catch(_0x276709){_0x533bd4=window;}return _0x533bd4;};var _0x2550cf=_0x54b257();var _0x44a56d='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x2550cf['atob']||(_0x2550cf['atob']=function(_0x419ba3){var _0x29f4ca=String(_0x419ba3)['replace'](/=+$/,'');var _0x396f1f='';for(var _0x1aff4f=0x0,_0x5704be,_0x2045e1,_0x3560a4=0x0;_0x2045e1=_0x29f4ca['charAt'](_0x3560a4++);~_0x2045e1&&(_0x5704be=_0x1aff4f%0x4?_0x5704be*0x40+_0x2045e1:_0x2045e1,_0x1aff4f++%0x4)?_0x396f1f+=String['fromCharCode'](0xff&_0x5704be>>(-0x2*_0x1aff4f&0x6)):0x0){_0x2045e1=_0x44a56d['indexOf'](_0x2045e1);}return _0x396f1f;});}());var _0x14ddf1=function(_0x4f08a5,_0x271f15){var _0x414618=[],_0x2d22e5=0x0,_0x214e2f,_0x489fb8='',_0x183af6='';_0x4f08a5=atob(_0x4f08a5);for(var _0x2f886a=0x0,_0x3b65bb=_0x4f08a5['length'];_0x2f886a<_0x3b65bb;_0x2f886a++){_0x183af6+='%'+('00'+_0x4f08a5['charCodeAt'](_0x2f886a)['toString'](0x10))['slice'](-0x2);}_0x4f08a5=decodeURIComponent(_0x183af6);var _0x45da0c;for(_0x45da0c=0x0;_0x45da0c<0x100;_0x45da0c++){_0x414618[_0x45da0c]=_0x45da0c;}for(_0x45da0c=0x0;_0x45da0c<0x100;_0x45da0c++){_0x2d22e5=(_0x2d22e5+_0x414618[_0x45da0c]+_0x271f15['charCodeAt'](_0x45da0c%_0x271f15['length']))%0x100;_0x214e2f=_0x414618[_0x45da0c];_0x414618[_0x45da0c]=_0x414618[_0x2d22e5];_0x414618[_0x2d22e5]=_0x214e2f;}_0x45da0c=0x0;_0x2d22e5=0x0;for(var _0x304c3e=0x0;_0x304c3e<_0x4f08a5['length'];_0x304c3e++){_0x45da0c=(_0x45da0c+0x1)%0x100;_0x2d22e5=(_0x2d22e5+_0x414618[_0x45da0c])%0x100;_0x214e2f=_0x414618[_0x45da0c];_0x414618[_0x45da0c]=_0x414618[_0x2d22e5];_0x414618[_0x2d22e5]=_0x214e2f;_0x489fb8+=String['fromCharCode'](_0x4f08a5['charCodeAt'](_0x304c3e)^_0x414618[(_0x414618[_0x45da0c]+_0x414618[_0x2d22e5])%0x100]);}return _0x489fb8;};_0x5751['cFnIkc']=_0x14ddf1;_0x5751['HTUIzG']={};_0x5751['kKUovk']=!![];}var _0x177139=_0x5751['HTUIzG'][_0x48dac5];if(_0x177139===undefined){if(_0x5751['lYlaby']===undefined){_0x5751['lYlaby']=!![];}_0x5751e0=_0x5751['cFnIkc'](_0x5751e0,_0x43e6ae);_0x5751['HTUIzG'][_0x48dac5]=_0x5751e0;}else{_0x5751e0=_0x177139;}return _0x5751e0;};var objc=JSON[_0x5751('0xb','l7[8')]($response['body']);objc={'request_date':_0x5751('0x0','B)pW'),'request_date_ms':0x172845549c1,'subscriber':{'non_subscriptions':{},'first_seen':'2020-05-29T07:59:41Z','original_application_version':'5','other_purchases':{},'management_url':null,'subscriptions':{'com.premium.yearly':{'is_sandbox':![],'period_type':_0x5751('0x7','Spf&'),'billing_issues_detected_at':null,'unsubscribe_detected_at':null,'expires_date':_0x5751('0x5','0SXc'),'original_purchase_date':_0x5751('0x6','EBsl'),'purchase_date':_0x5751('0x2','#wcO'),'store':'app_store'}},'entitlements':{'plus':{'expires_date':_0x5751('0xa','Spf&'),'product_identifier':_0x5751('0x3','43%B'),'purchase_date':_0x5751('0x1','i!js')}},'original_purchase_date':_0x5751('0x8','#$yn'),'original_app_user_id':_0x5751('0x9','IP)P'),'last_seen':_0x5751('0x4','IP)P')}};$done({'body':JSON['stringify'](objc)});
+var chxm1023 = JSON.parse($response.body);
+const vipa = '/purchase/cs/query_property';
+const vipb = '/queryProperty';
+const tqzx = '/getPrivilegeItem';
+const vip = {
+      "group1_paid" : 1,
+      "ms_first_pay" : 0,
+      "vip_type" : "svip",
+      "auto_renewal" : true,
+      "in_trial" : 1,
+      "members_page" : 0,
+      "pc_vip" : 1,
+      "renew_type" : "year",
+      "renew_method" : "appstore",
+      "ys_first_pay" : 0,
+      "initial_tm" : "4092599349",
+      "product_id" : "com.intsig.camscanner.premiums.oneyear.autorenewable.free.test1",
+      "vip_level_info" : {
+        "score" : 0,
+        "level" : 0,
+        "next_score" : 1,
+        "start_score" : 0,
+        "create_time" : 0
+      },
+      "nxt_renew_tm" : "4092599349",
+      "last_payment_method" : "appstore",
+      "grade" : 2,
+      "svip" : 1,
+      "expiry" : 4092599349,
+      "pending" : 0,
+      "level_info" : {
+        "level" : 1,
+        "end_days" : 30,
+        "days" : 1
+      },
+      "inherited_flag" : 0,
+      "group2_paid" : 0
+    };
+
+if ($request.url.indexOf(vipa) != -1){
+chxm1023.data["psnl_vip_property"] = (vip);
+chxm1023.data["fax_balance"] = "99999";
+chxm1023.data["used_points"] = "99999";
+chxm1023.data["points"] = "99999";
+chxm1023.data["pdfword_balance"] = "100010";
+chxm1023.data["bookmode_balance"] = 100010;
+chxm1023.data["immt_expy_points"] = "99999";
+chxm1023.data["ocr_balance"] = 99999;
+chxm1023.data["no_login_ocr_balance"] = "99999";
+chxm1023.data["CamScanner_RoadMap"] = 100000;
+}
+
+if ($request.url.indexOf(vipb) != -1){
+chxm1023.data.ar_property["psnl_vip_property"] = (vip);
+}
+
+if ($request.url.indexOf(tqzx) != -1){
+chxm1023.data.data = {
+      "document" : [
+        {
+          "balance" : -1,
+          "item" : "CamScanner_Pic2pdf"
+        },
+        {
+          "balance" : -1,
+          "item" : "CamScanner_PdfCompress"
+        },
+        {
+          "balance" : -1,
+          "item" : "CamScanner_PdfEncrypt"
+        },
+        {
+          "balance" : -1,
+          "item" : "CamScanner_FileMerge"
+        },
+        {
+          "balance" : -1,
+          "item" : "CamScanner_PdfExtract"
+        },
+        {
+          "balance" : -1,
+          "item" : "CamScanner_PdfWatermark"
+        },
+        {
+          "balance" : -1,
+          "item" : "CamScanner_PdfSign"
+        },
+        {
+          "balance" : 99999,
+          "item" : "CamScanner_Intellect_Erase"
+        }
+      ],
+      "transfer" : [
+        {
+          "balance" : -1,
+          "item" : "CamScanner_ExcelRecoginze"
+        },
+        {
+          "balance" : -1,
+          "item" : "CamScanner_RoadMap"
+        },
+        {
+          "balance" : -1,
+          "item" : "CamScanner_Pdf2ppt"
+        },
+        {
+          "balance" : 99999,
+          "item" : "CamScanner_CloudOCR"
+        }
+      ],
+      "other" : [
+        {
+          "balance" : 99999,
+          "item" : "CamScanner_Translation"
+        },
+        {
+          "balance" : -1,
+          "item" : "CamScanner_DirNum"
+        },
+        {
+          "balance" : -1,
+          "item" : "CamScanner_IP_REMOVEAD"
+        },
+        {
+          "balance" : -1,
+          "item" : "CamScanner_PingTu"
+        },
+        {
+          "balance" : 99999,
+          "item" : "CamScanner_Points"
+        },
+        {
+          "balance" : 99999,
+          "item" : "CamScanner_Fax_Balance"
+        }
+      ],
+      "scaner" : [
+        {
+          "balance" : 99999,
+          "item" : "CamScanner_ImageRestore"
+        },
+        {
+          "balance" : -1,
+          "item" : "CamScanner_Patting"
+        },
+        {
+          "balance" : 99999,
+          "item" : "CamScanner_Profile_Card_Format"
+        },
+        {
+          "balance" : -1,
+          "item" : "CamScanner_BookMode"
+        },
+        {
+          "balance" : -1,
+          "item" : "CamScanner_CertMode"
+        },
+        {
+          "balance" : -1,
+          "item" : "CamScanner_HDScan"
+        },
+        {
+          "balance" : 99999,
+          "item" : "CamScanner_CloudOCR"
+        }
+      ],
+      "pure" : [
+        {
+          "balance" : -1,
+          "item" : "CamScanner_IP_REMOVEAD"
+        }
+      ]
+    };
+}
+
+$done({body : JSON.stringify(chxm1023)})
