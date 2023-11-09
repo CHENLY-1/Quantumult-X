@@ -1,4 +1,6 @@
 #
+host, res.stayfork.app, direct
+host-suffix, 1password.com, direct
 host, ios.aneeo.com, direct
 host, iios.fun, direct
 host, esign.yyyue.xyz, direct
