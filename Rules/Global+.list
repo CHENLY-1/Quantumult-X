@@ -1,5 +1,6 @@
-HOST-KEYWORD, adguard, PROXY
 HOST-SUFFIX, qianling.pw, PROXY
+IP-CIDR, 8.8.8.8/32, PROXY
+host, yfamily.vercel.app, PROXY
 # ---(机场)---
 # > 花云
 HOST, flowercloud.net, PROXY
