@@ -3,6 +3,12 @@ host-suffix, myqcloud.com, reject
 host-suffix, tencentclb.com, reject
 host, ax6zrlc.mlumlio.cn, reject
 host, ew5iibk.aroom.love, reject
+# https://www.x1hub.com/
+HOST-SUFFIX, jads.co, REJECT
+HOST-SUFFIX, juicyads.com, REJECT
+# https://www.xvideos.com/
+HOST, a.orbsrv.com, REJECT
+HOST, s.orbsrv.com, REJECT
 #番茄小说
 host, p6-ad-sign.byteimg.com, reject
 host, p9-ad-sign.byteimg.com, reject
