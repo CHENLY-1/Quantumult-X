@@ -4,6 +4,7 @@ host, yfamily.vercel.app, PROXY
 # ---(机场)---
 host, api.huacloud.xyz, proxy
 host, v1.chaojiji.one, proxy
+host, chaojiji.one, proxy
 # > 花云
 HOST, flowercloud.net, PROXY
 HOST, huacloud.net, PROXY
