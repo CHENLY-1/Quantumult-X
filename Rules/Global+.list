@@ -2,11 +2,13 @@ HOST-SUFFIX, qianling.pw, PROXY
 IP-CIDR, 8.8.8.8/32, PROXY
 host, yfamily.vercel.app, PROXY
 # ---(机场)---
+host, api.huacloud.xyz, proxy
+host, v1.chaojiji.one, proxy
 # > 花云
 HOST, flowercloud.net, PROXY
 HOST, huacloud.net, PROXY
 # > 独角兽
-HOST, 91unicorn.cloud, PROXY 
+HOST, 91unicorn.cloud, PROXY 
 HOST, 91unicorn.net, PROXY
 HOST-KEYWORD, 91unicorn, PROXY
 # > 快银
