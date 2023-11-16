@@ -1,0 +1,14 @@
+{
+    "name": "qiandao",
+    "description": "",
+    "task": [
+        "0 0 0,1 * * ? https://raw.githubusercontent.com/chavyleung/scripts/master/bubei/bubei.js, tag=不背单词, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/bubei.png, enabled=true",
+        "0 0 0,1 * * ? https://raw.githubusercontent.com/lowking/Scripts/master/QQVip/qqVipCheckIn.js, tag=qq会员成长值, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/qqvip.png, enabled=true",
+        "0 0 0,1 * * ? https://raw.githubusercontent.com/chavyleung/scripts/master/qqmusic/qqmusic.js, tag=QQ音乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/qqmusic.png, enabled=true",
+        "0 1 0 1 * ? https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, tag=腾讯视频, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png, enabled=true",
+        "0 10 0 * * ? https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js, tag=WPS, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/wps.png, enabled=true",
+        "0 0 0,1 * * ? https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/iQIYI.png, enabled=true",
+        "0 0 0 * * ? https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js, tag=testflight公测监控, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png, enabled=true",
+        "0 0 0,1 * * ? https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js, tag=App价格监控, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/appstore.png, enabled=true",
+    ]
+}
