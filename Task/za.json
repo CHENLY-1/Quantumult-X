@@ -1,6 +1,6 @@
 {
     "name": "qiandao",
-    "description": "",
+    "description": "https://github.com/CHENLY-1/Quantumult-X/main/Task/",
     "task": [
         "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bubei/bubei.js, tag=不背单词, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/bubei.png, enabled=true",
         "0 0 0,1 * * ? https://raw.githubusercontent.com/lowking/Scripts/master/QQVip/qqVipCheckIn.js, tag=qq会员成长值, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/qqvip.png, enabled=true",
