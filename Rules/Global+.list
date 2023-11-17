@@ -5,6 +5,7 @@ host, yfamily.vercel.app, PROXY
 host, api.huacloud.xyz, proxy
 host, v1.chaojiji.one, proxy
 host, chaojiji.one, proxy
+host, www.aca.best, proxy
 # > 花云
 HOST, flowercloud.net, PROXY
 HOST, huacloud.net, PROXY
