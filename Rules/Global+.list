@@ -6,7 +6,6 @@ host, api.huacloud.xyz, proxy
 host, v1.chaojiji.one, proxy
 host, chaojiji.one, proxy
 host, www.aca.best, proxy
-host, starlinkcloud.xyz, proxy
 # > 花云
 HOST, flowercloud.net, PROXY
 HOST, huacloud.net, PROXY
