@@ -20,11 +20,5 @@ host-suffix, xhwx3.com, direct
 ;host-keyword, shouqianba, direct
 host, emby.aca.best, direct
 #独角兽机场
-host, d9s.me, direct
-#快银机场
-host, kuaiyin.life, direct
-host, kuaiyin.me, direct
-host, kuaiyin.pro, direct
-host, kuaiyin.pw, direct
-host, kuaiyin.run, direct
-host, www.kuaiyin001.com, direct
+;host, d9s.me, direct
+
