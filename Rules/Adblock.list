@@ -7,6 +7,8 @@ host, www.qange.com, reject
 host, m9.llmxt.fun, reject
 host, cuk.wkqndwk.cn, reject
 host, star.xfztgxt.com, reject
+host, m6u.zhangchi.work, reject
+host, m9.vpqko.fun, reject
 # https://www.x1hub.com/
 HOST-SUFFIX, jads.co, REJECT
 HOST-SUFFIX, juicyads.com, REJECT
