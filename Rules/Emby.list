@@ -7,7 +7,7 @@ host, porn.aca.best, proxy
 host, red.prisms.cc, proxy
 # pilipili
 host, emby.pilipiliultra.top, proxy
-host, emby.pilipiliultra.com:443, proxy
+host, emby.pilipiliultra.com, proxy
 # > emby-flowercloud
 host, emby.flowercloud.yt, proxy
 # > pornemby
