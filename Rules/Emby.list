@@ -1,30 +1,34 @@
-#
+# 卡戎
 host, play.charontv.com, proxy
+# ACA机场服
 host, emby.aca.best, proxy
 host, porn.aca.best, proxy
-host, cherrytv.one, proxy
+# EIB机场服
 host, red.prisms.cc, proxy
+# pilipili
+host, emby.pilipiliultra.top, proxy
+host, emby.pilipiliultra.com:443, proxy
 # > emby-flowercloud
-DOMAIN,emby.flowercloud.yt
+host, emby.flowercloud.yt, proxy
 # > pornemby
-DOMAIN,pornemby.club
+host, pornemby.club, proxy
 # > Odyssey
-DOMAIN,cf.odysseyplus.site
-DOMAIN,agahk.odysseyplus.site
-DOMAIN,agasg.odysseyplus.site
-DOMAIN,ru.odysseyplus.site
+host, cf.odysseyplus.site, proxy
+host, agahk.odysseyplus.site, proxy
+host, agasg.odysseyplus.site, proxy
+host, ru.odysseyplus.site, proxy
 # > 卷毛鼠
-DOMAIN,jmsooo.com
-DOMAIN,cf.jmsooo.com
-DOMAIN,hk.jmsooo.com
-DOMAIN,sg.jmsooo.com
+host, jmsooo.com, proxy
+host, cf.jmsooo.com, proxy
+host, hk.jmsooo.com, proxy
+host, sg.jmsooo.com, proxy
 # > 卷毛鼠
-DOMAIN,emby.wtf
-DOMAIN,pub1back.emby.wtf
-DOMAIN,pub2back.emby.wtf
-DOMAIN,pub3back.emby.wtf
-DOMAIN,pub1.emby.wtf
-DOMAIN,pub2.emby.wtf
-DOMAIN,pub3.emby.wtf
+host, emby.wtf, proxy
+host, pub1back.emby.wtf, proxy
+host, pub2back.emby.wtf, proxy
+host, pub3back.emby.wtf, proxy
+host, pub1.emby.wtf, proxy
+host, pub2.emby.wtf, proxy
+host, pub3.emby.wtf, proxy
 
 
