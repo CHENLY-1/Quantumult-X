@@ -1,3 +1,5 @@
+#抖音私信
+host, mssdk3-normal-lf.zijieapi.com, direct
 #
 host, res.stayfork.app, direct
 host-suffix, 1password.com, direct
