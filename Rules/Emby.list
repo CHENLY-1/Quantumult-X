@@ -5,6 +5,8 @@ host, emby.aca.best, proxy
 host, porn.aca.best, proxy
 # EIB机场服
 host, red.prisms.cc, proxy
+# 纸片人
+;host, embyplus.org, proxy
 # pilipili
 host, emby.pilipiliultra.top, proxy
 host, emby.pilipiliultra.com, proxy
