@@ -19,7 +19,7 @@ var caixiaoyun = {},
 if (url.includes("/v2/user")) {
     let obj = JSON.parse($response.body);
     obj.result.is_vip = !0,
-        obj.result.svip_expired_at = 4092599349,
+        obj.result.svip_expired_at = 3742732800,
         obj.result.vip_type = "s",
         caixiaoyun.body = JSON.stringify(obj)
 }
