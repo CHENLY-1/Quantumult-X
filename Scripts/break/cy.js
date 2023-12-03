@@ -4,11 +4,15 @@
 [rewrite_local]
 # 普通版广告
 ;^https:\/\/ad\.cyapi\.cn\/v2\/req\?app_name=weather url reject-dict
-# 去除赏叶赏花
+# 去除新版本赏叶赏花
 ;^https:\/\/wrapper\.cyapi\.cn\/v1\/activity\?app_name=weather url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/break/cytq.js
 # 解锁vip
+;旧版本biz.caiyunapp.com
+;新版本biz.cyapi.cn
 ^https:\/\/biz\.(cyapi|caiyunapp)\.(cn|com)\/v2\/user url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/break/cytq.js
-# 卫星云图 48小时预报
+# 卫星云图 48小时预报 
+;旧版本api.caiyunapp.com
+;新版本wrapper.cyapi.cn
 ^https:\/\/(api|wrapper)\.(cyapi|caiyunapp)\.(cn|com)\/v1\/(satellite|nafp\/origin_images) url script-request-header https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/break/cytq.js
 
 [mitm]
