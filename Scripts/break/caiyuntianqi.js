@@ -1,3 +1,4 @@
+//https://raw.githubusercontent.com/wf021325/qx/master/js/caiyun.js
 /*
 彩云天气解锁SVIP
 ====================================
@@ -7,12 +8,10 @@
 # 去除新版本赏叶赏花
 ;^https:\/\/wrapper\.cyapi\.cn\/v1\/activity\?app_name=weather url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/break/cytq.js
 # 解锁vip
-;旧版本biz.caiyunapp.com
-;新版本biz.cyapi.cn
+# 包含6.7.2及之前旧版本biz.caiyunapp.com；之后版本biz.cyapi.cn
 ^https:\/\/biz\.(cyapi|caiyunapp)\.(cn|com)\/v2\/user url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/break/cytq.js
 # 卫星云图 48小时预报 
-;旧版本api.caiyunapp.com
-;新版本wrapper.cyapi.cn
+# 旧版本api.caiyunapp.com；新版本wrapper.cyapi.cn
 ^https:\/\/(api|wrapper)\.(cyapi|caiyunapp)\.(cn|com)\/v1\/(satellite|nafp\/origin_images) url script-request-header https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/break/cytq.js
 
 [mitm]
