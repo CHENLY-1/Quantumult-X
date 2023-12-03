@@ -13,7 +13,7 @@
 ^https:\/\/wrapper\.cyapi\.cn\/v1\/(satellite|nafp\/origin_images) url script-request-header https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Rewrites/cai.js
 
 [mitm]
-hostname = *.cyapi.cn
+hostname = wrapper.cyapi.cn, biz.cyapi.cn
 ====================================
 */
 var caixiaoyun = {},
