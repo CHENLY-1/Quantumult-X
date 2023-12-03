@@ -15,8 +15,25 @@
 [mitm]
 hostname = wrapper.cyapi.cn, biz.cyapi.cn
 ====================================
-*/
-var caixiaoyun = {},
+/*
+彩云天气
+
+====================================
+[rewrite_local]
+# 普通版广告
+;^https:\/\/ad\.cyapi\.cn\/v2\/req\?app_name=weather url reject-dict
+# 赏叶赏花
+^https:\/\/wrapper\.cyapi\.cn\/v1\/activity\?app_name=weather url script-response-body https://raw.githubusercontent.com/wf021325/qx/master/js/caiyun.js
+# 解锁vip
+^https:\/\/biz\.cyapi\.cn\/v2\/user url script-response-body https://raw.githubusercontent.com/wf021325/qx/master/js/caiyun.js
+# 卫星云图 48小时预报
+^https:\/\/wrapper\.cyapi\.cn\/v1\/(satellite|nafp\/origin_images) url script-request-header https://raw.githubusercontent.com/wf021325/qx/master/js/caiyun.js
+
+[mitm]
+hostname = *.cyapi.cn
+====================================
+ */
+var caicoayun = {},
     url = $request.url;
 if (url.includes("/v2/user")) {
     let obj = JSON.parse($response.body);
@@ -32,8 +49,9 @@ if (/v1\/(satellite|nafp\/origin_images)/g.test(url)) {
 if(url.includes('v1/activity')){
 	let body = $response.body
 	body = '{"status":"ok","activities":[{"items":[{}]}]}';
-	caixiaoyun.body = body;
+	caiciaoyun.body = body;
 }
-$done(caixiaoyun);
+$done(huihui);
+
 
 //let Token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZXJzaW9uIjoxLCJ1c2VyX2lkIjoiNWY1YmZjNTdkMmM2ODkwMDE0ZTI2YmI4Iiwic3ZpcF9leHBpcmVkX2F0IjoxNjc0MjI3MTY2LjQxNjc3MSwidmlwX2V4cGlyZWRfYXQiOjB9.wbgfCRp3W9zEvzEYsiWxerta4G-d-b0qlYCcilevOKY"; 
