@@ -1,5 +1,5 @@
 //https://raw.githubusercontent.com/wf021325/qx/master/js/caiyun.js
- /*
+/*
 彩云天气解锁SVIP
 ====================================
 [rewrite_local]
@@ -15,7 +15,7 @@
 [mitm]
 hostname = *.cyapi.cn
 ====================================
- */
+*/
 var caixiaoyun = {},
     url = $request.url;
 if (url.includes("/v2/user")) {
