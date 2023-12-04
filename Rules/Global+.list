@@ -1,6 +1,8 @@
 HOST-SUFFIX, qianling.pw, PROXY
 ;IP-CIDR, 8.8.8.8/32, PROXY
 host, yfamily.vercel.app, PROXY
+# ntRRR公益服网站
+host, emby.te.sb, proxy
 # ---(机场)---
 host, api.huacloud.xyz, proxy
 host, v1.chaojiji.one, proxy
