@@ -51,8 +51,13 @@ host, lf-sourcecdn-tos.bytegecko.com, reject
 host, bsrv.qq.com, reject
 host, sq.bls.mdt.qq.com, reject
 host, xj-landing.gdtimg.com, reject
-#收钱吧小程序
+# 收钱吧小程序
 host-suffix, ads-shopping.shouqianba.com, reject
+# 多多驿站
+host, t16img.yangkeduo.com, reject
+host, t00img.yangkeduo.com, reject
+host, himg.pddugc.com, reject
+host, img.pddpic.com, reject
 # > 隐私保护
 host-suffix, airpr.com, reject
 host-suffix, hotjar.com, reject
