@@ -8,7 +8,7 @@ host, 789.123456.al, direct
 # 卡戎
 host, play.charontv.com, Emby
 # ACA机场服
-host, emby.aca.best, Emby
+host, emby.aca.best, direct
 host, porn.aca.best, Emby
 # EIB机场服
 host, red.prisms.cc, Emby
