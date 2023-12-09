@@ -1,5 +1,3 @@
-#cc公益
-;host, cc.ccemby.tk, direct
 #抖音私信
 host, mssdk3-normal-lf.zijieapi.com, direct
 #
@@ -22,7 +20,6 @@ host, ios.aneeo.com, direct
 host, iios.fun, direct
 host-suffix, xhwx3.com, direct
 ;host-keyword, shouqianba, direct
-host, emby.aca.best, direct
 #独角兽机场
 ;host, d9s.me, direct
 
