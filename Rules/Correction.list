@@ -1,6 +1,7 @@
 #抖音私信
 host, mssdk3-normal-lf.zijieapi.com, direct
 #
+host, www.ldsw.info, direct
 host, res.stayfork.app, direct
 host-suffix, 1password.com, direct
 host, ios.aneeo.com, direct
