@@ -1,22 +1,22 @@
 # cc公益
-;host, cc.ccemby.tk, proxy
+host, cc.ccemby.tk, direct
 # ntRRR
 host, ntrrr.am.sb, Emby
 # TreeDiagram
-host, 789.123456.al, Emby
+host, 789.123456.al, direct
 # 卡戎
-host, play.charontv.com, proxy
+host, play.charontv.com, Emby
 # ACA机场服
-host, emby.aca.best, proxy
-host, porn.aca.best, proxy
+host, emby.aca.best, Emby
+host, porn.aca.best, Emby
 # EIB机场服
-host, red.prisms.cc, proxy
+host, red.prisms.cc, Emby
 # 纸片人
-;host, embyplus.org, proxy
+host, embyplus.org, direct
 # pilipili
-host, emby.pilipiliultra.top, proxy
-host, emby.pilipiliultra.com, proxy
+host, emby.pilipiliultra.top, Emby
+host, emby.pilipiliultra.com, Emby
 # > emby-flowercloud
-host, emby.flowercloud.yt, proxy
+host, emby.flowercloud.yt, Emby
 
 
