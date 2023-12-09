@@ -9,6 +9,8 @@ host, ntrrr.am.sb, Emby
 host, record.te.sb, Emby
 # TreeDiagram
 host, 789.123456.al, direct
+# 二刺螈
+host, media.nijigem.by, direct
 # 卡戎
 host, play.charontv.com, Emby
 # ACA机场服
