@@ -59,6 +59,10 @@ host, t16img.yangkeduo.com, reject
 host, t00img.yangkeduo.com, reject
 host, himg.pddugc.com, reject
 host, img.pddpic.com, reject
+# > HDOBOX去广告
+host-suffix, applovin.com, reject
+host-suffix, applvn.com, reject
+host-suffix, doubleclick.net, reject
 # > 隐私保护
 host-suffix, airpr.com, reject
 host-suffix, hotjar.com, reject
