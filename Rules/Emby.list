@@ -7,6 +7,9 @@ host, emby-api.te.sb, Emby
 host, emby.te.sb, Emby
 host, ntrrr.am.sb, Emby
 host, record.te.sb, Emby
+# 叔服
+host, jz.mcjoker.xyz, direct
+host, emby3.mcjoker.xyz, Emby
 # TreeDiagram
 host, 789.123456.al, direct
 # 二刺螈
