@@ -1,8 +1,9 @@
 //https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes/AnyDown.js
 /*************************************
+[rewrite_local]
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/break/appraven.jsAnyDown_crack.js
+[mitm]
 hostname = buy.itunes.apple.com
-
 **************************************/
 var chxm1023 = JSON.parse($response.body);
 
