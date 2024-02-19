@@ -4,7 +4,7 @@
 ====================================
 [rewrite_local]
 # 普通版广告
-;^https:\/\/ad\.cyapi\.cn\/v2\/req\?app_name=weather url reject-dict
+^https:\/\/ad\.cyapi\.cn\/v2\/req\?app_name=weather url reject-dict
 # 去除赏叶赏花
 ^https:\/\/wrapper\.cyapi\.cn\/v1\/activity\?app_name=weather url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/break/cytq.js
 # 解锁vip
