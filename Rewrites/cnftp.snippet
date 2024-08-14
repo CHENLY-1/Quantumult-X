@@ -3,7 +3,7 @@
 #!author = RuCu6
 #!update = 2023-09-28 07:10
 
-# 爱奇艺 14.9.5以下版本 //-i.vip.iqiyi.com, *.iqiyi.com
+# 爱奇艺 14.9.6以下版本 //-i.vip.iqiyi.com, *.iqiyi.com
 # 播放页开通会员提示
 ^https:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show\? url reject-dict
 # 首页信息流广告
@@ -36,7 +36,7 @@
 # 开屏广告,播放广告
 ^https?:\/\/(kjp|t7z)\.cupid\.iqiyi\.com\/mixer\? url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/adblock/cnftp.js
 
-# 芒果tv 7.5.4以下版本 //*.mgtv.com
+# 芒果tv 7.5.6以下版本 //*.mgtv.com
 # 无用请求
 ^http:\/\/[\d\.]+:\d{5}\/\?cmd=indexes url reject
 # 首页左上角推广
@@ -55,6 +55,7 @@
 # 升级弹窗
 ^https:\/\/mobile\.api\.mgtv\.com\/v2\/mobile\/checkUpdate\? url reject-dict
 # 播放详情页
+^http:\/\/mobile-thor\.api\.mgtv\.com\/v1\/vod\/cms\/list\? url reject-dict
 ^https:\/\/mobile\.api\.mgtv\.com\/v10\/video\/info\? url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/adblock/cnftp.js
 ^https:\/\/mobile-thor\.api\.mgtv\.com\/v1\/vod\/info\? url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/adblock/cnftp.js
 # 搜索框填充词
