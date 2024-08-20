@@ -1,7 +1,6 @@
+// 彩云天气解锁SVIP
 // https://raw.githubusercontent.com/wf021325/qx/master/js/caiyun.js
 /*
-彩云天气解锁SVIP
-====================================
 [rewrite_local]
 # 普通版广告
 ;^https:\/\/ad\.cyapi\.cn\/v2\/req\?app_name=weather url reject-dict
@@ -11,10 +10,8 @@
 ^https:\/\/biz\.cyapi\.cn\/v2\/user url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/break/cytq.js
 # 卫星云图 48小时预报
 ^https:\/\/wrapper\.cyapi\.cn\/v1\/(satellite|nafp\/origin_images) url script-request-header https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/break/cytq.js
-
 [mitm]
 hostname = biz.cyapi.cn, wrapper.cyapi.cn
-====================================
  */
 var caixiaoyun = {},
     url = $request.url;
