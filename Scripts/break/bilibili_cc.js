@@ -1,15 +1,16 @@
-/***********************************
-> 应用名称：哔哩哔哩繁体转简体
-> 脚本地址：https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/Bilibili_CC.conf_cc.js
-> 脚本作者：Cuttlefish
-> 更新时间：2023-04-13
-***********************************/
+// 哔哩哔哩繁体字幕转简体
+// https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/Bilibili_CC.conf
+// 2023-04-13
+/*
+^https?:\/\/.*\.hdslb\.com\/bfs\/subtitle\/.+\.json url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/break/bilibili_cc.js
+hostname = aisubtitle.hdslb.com,i0.hdslb.com
+*/
 
-var ddgksf2013 = JSON.parse($response.body);
+var bilibili_CC = JSON.parse($response.body);
 
-for (var i=0; i<ddgksf2013.body.length;i++) ddgksf2013.body[i].content = Simplized(ddgksf2013.body[i].content);
+for (var i=0; i<bilibili_CC.body.length;i++) bilibili_CC.body[i].content = Simplized(bilibili_CC.body[i].content);
 
-$done({body:JSON.stringify(ddgksf2013)});
+$done({body:JSON.stringify(bilibili_CC)});
 
 
 
