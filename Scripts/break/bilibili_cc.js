@@ -2,8 +2,11 @@
 // https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/Bilibili_CC.conf
 // 2023-04-13
 /*
+
 ^https?:\/\/.*\.hdslb\.com\/bfs\/subtitle\/.+\.json url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/break/bilibili_cc.js
+
 hostname = aisubtitle.hdslb.com,i0.hdslb.com
+
 */
 
 var bilibili_CC = JSON.parse($response.body);
