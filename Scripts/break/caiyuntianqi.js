@@ -1,7 +1,6 @@
-//https://raw.githubusercontent.com/wf021325/qx/master/js/caiyun.js
+// https://raw.githubusercontent.com/wf021325/qx/master/js/caiyun.js
+// 彩云天气解锁SVIP
 /*
-彩云天气解锁SVIP
-====================================
 [rewrite_local]
 # 普通版广告
 ;^https:\/\/ad\.cyapi\.cn\/v2\/req\?app_name=weather url reject-dict
@@ -16,7 +15,7 @@
 
 [mitm]
 hostname = *.cyapi.cn, *.caiyunapp.com
-====================================
+
  */
 var caixiaoyun = {},
     url = $request.url;
