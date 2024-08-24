@@ -1,9 +1,10 @@
 //https://raw.githubusercontent.com/Yu9191/Rewrite/main/wyydcd.js
+//网易有道词典
 /*
-项目名称：网易有道词典
-
 [rewrite_local]
-^https:\/\/dict\.youdao\.com\/vip\/user\/status url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/wyydcd.js
+# 会员解锁
+^https:\/\/dict\.youdao\.com\/vip\/user\/status url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/break/wyydcdelse.js
+
 # 翻译   广告均由 安妮 分享 
 ^https:\/\/dict\.youdao\.com\/course\/tab\/translateTab url reject-dict
 
@@ -30,7 +31,6 @@
 
 [mitm]
 hostname = dict.youdao.com, business.youdao.com, api-overmind.youdao.com, cdke.youdao.com
-
 
 */
 
