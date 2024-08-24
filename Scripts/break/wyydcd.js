@@ -1,5 +1,4 @@
-//https://raw.githubusercontent.com/Yu9191/Rewrite/main/wyydcd.js
-//网易有道词典
+//网易有道词典净化
 /*
 [rewrite_local]
 # 会员解锁
