@@ -3,7 +3,7 @@
 /*
 [rewrite_local]
 # 会员解锁
-^https:\/\/dict\.youdao\.com\/vip\/user\/status url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/break/wyydcdelse.js
+^https:\/\/dict\.youdao\.com\/vip\/user\/status url script-response-body https://raw.githubusercontent.com/CHENLY-1/Quantumult-X/main/Scripts/break/wyydcd.js
 
 # 翻译   广告均由 安妮 分享 
 ^https:\/\/dict\.youdao\.com\/course\/tab\/translateTab url reject-dict
