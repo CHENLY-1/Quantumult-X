@@ -1,5 +1,5 @@
 // https://raw.githubusercontent.com/wf021325/qx/master/js/caiyun.js
-// 彩云天气解锁SVIP
+// 彩云天气解锁SVIP 7.19及以前版本可用
 /*
 [rewrite_local]
 # 普通版广告
